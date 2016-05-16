@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<configuration>
+    <property>
+        <name>fs.s3a.access.key</name>
+        <value>AKIAJT5YO6YYCENTH7FA</value>
+    </property>
+    <property>
+        <name>fs.s3a.secret.key</name>
+        <value>h4jgj7f3dSeDDARCq0SpyR08UTgUQfWyAr5TWyQ6</value>
+    </property>
+    <property>
+        <name>spark.sql.parquet.output.committer.class</name>
+        <value>org.apache.spark.sql.parquet.DirectParquetOutputCommitter</value>
+    </property>
+</configuration>w
