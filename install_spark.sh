@@ -4,7 +4,7 @@
 # @Last Modified time: 2016-05-13 15:43:14
 
 # ENV
-export export SPARK_VERSION=1.6.1
+export export SPARK_VERSION=1.6.2
 export HADOOP_VERSION=2.6
 export SPARK_PACKAGE=$SPARK_VERSION-bin-hadoop$HADOOP_VERSION
 export SPARK_HOME=/usr/local/spark-$SPARK_PACKAGE
@@ -32,7 +32,6 @@ mkdir -p $SPARK_HOME/jars && cd $_ \
   && wget \
     "http://central.maven.org/maven2/com/amazonaws/aws-java-sdk/1.7.4/aws-java-sdk-1.7.4.jar" \
     "http://central.maven.org/maven2/org/apache/hadoop/hadoop-aws/2.7.1/hadoop-aws-2.7.1.jar" \
-    "https://s3-us-west-2.amazonaws.com/ta-lib/directouputcommiter_2.10-1.0.jar" \
     "http://central.maven.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar" \
   	"http://central.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.10/1.6.0-M2/spark-cassandra-connector_2.11-1.6.0-M2.jar"
 
